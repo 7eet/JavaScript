@@ -10,4 +10,7 @@
 	- **Boolean** - _true or false._
 	- **null** - _special type means nothing or empty._
 	- **undefined** - _It means the value is not assigned. If a variable is declared, but not assigned any value, then its value is_ **undefined**.
-
+4. Operators <br>
+	- **Unary** - _It has only one oprand. Like v++_
+	- **Binary** - _It has two operand. Like 5 + 3_
+	- **Arithematic** - _( +, -, *, /, %, \*\*)_
