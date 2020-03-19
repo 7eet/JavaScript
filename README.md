@@ -13,4 +13,4 @@
 4. Operators <br>
 	- **Unary** - _It has only one oprand. Like v++_
 	- **Binary** - _It has two operand. Like 5 + 3_
-	- **Arithematic** - _( +, -, *, /, %, \*\*)_
+	- **Arithematic** - _( +, -, *, /, %, \**)_
