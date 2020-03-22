@@ -13,4 +13,18 @@
 4. Operators <br>
 	- **Unary** - _It has only one oprand. Like v++_
 	- **Binary** - _It has two operand. Like 5 + 3_
-	- **Arithematic** - _( +, -, *, /, %)_
+	- **Arithematic** - _( +, -, *, /, %, \*\*)_
+5. Interactions<br>
+	- **alert** - _It shows the alert message in a mini-window_ <br>
+	`> alert("JS");`
+	- **confirm** - _It pop a new confirmation window having only two buttons "cancel" and "ok"._
+	`> confirm("Question?");`
+	- **prompt** - _It displays a text and textbox in a mini-window. User enter text in that textbox._
+	`> prompt("Enter number");
+6. Conditional Statements<br>
+	- **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._
+		`if (condition) {
+			// statements to execute
+		} else {
+			// statements to excute
+		} `
