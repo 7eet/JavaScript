@@ -21,3 +21,10 @@
 	`> confirm("Question?");`
 	- **prompt** - _It displays a text and textbox in a mini-window. User enter text in that textbox._
 	`> prompt("Enter number");
+6. Conditional Statements<br>
+	- **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._
+		`if (condition) {
+			// statements to execute
+		} else {
+			// statements to excute
+		} `
