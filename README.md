@@ -17,13 +17,13 @@
 5. Interactions<br>
 	- **alert** - _It shows the alert message in a mini-window_ <br>
 	`> alert("JS");`
-	- **confirm** - _It pop a new confirmation window having only two buttons "cancel" and "ok"._
+	- **confirm** - _It pop a new confirmation window having only two buttons "cancel" and "ok"._<br>
 	`> confirm("Question?");`
-	- **prompt** - _It displays a text and textbox in a mini-window. User enter text in that textbox._
+	- **prompt** - _It displays a text and textbox in a mini-window. User enter text in that textbox._<br>
 	`> prompt("Enter number");
 6. Conditional Statements<br>
-	- **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._
-		`if (condition) {
+	- **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._<br>
+		`if (condition) { 
 			// statements to execute
 		} else {
 			// statements to excute
