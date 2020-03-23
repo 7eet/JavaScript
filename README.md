@@ -37,13 +37,9 @@
 - **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._<br>
 ``` 
 	if (condition) { 
-
 		// statements to execute
-
 	} else {
-
 		// statements to excute
-
 	}
 ```
 
@@ -51,31 +47,24 @@
 - **While** <br>
 ``` 
 	while(condition) { 
-
 		// statements
-
 	}
 ``` 
 
 - **do..while** <br>
 	```
 	 do {		
-
 		// this statement execute at least once 
-
 	} while (condition);
 	 ```
 
 - **for(begin; condition; increment)** <br>
 	```
-	 for ( let i = 0; i < 3; i++) { 
-
+	 for ( let i = 0; i < 3; i++) {
 		//statements  
-
 		console.log(i);
-
 	}
- ```
+	```
 
 ## Break & Continue <br>
 - **break** - _It is used break or exit the loop._
@@ -83,15 +72,10 @@
 
 ``` 
 	for (let i = 1; i <= 3; i++) { 
-
 		if (i == 2) { // when i equals to two, leave this 2 , start with 3
-
 			continue;	
-
 		}		
-
 		console.log(i); 
-	
 	}
 ```
 
