@@ -20,11 +20,35 @@
 	- **confirm** - _It pop a new confirmation window having only two buttons "cancel" and "ok"._<br>
 	`> confirm("Question?");`
 	- **prompt** - _It displays a text and textbox in a mini-window. User enter text in that textbox._<br>
-	`> prompt("Enter number");
+	`> prompt("Enter number");`
 6. Conditional Statements<br>
 	- **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._<br>
 		`if (condition) { 
 			// statements to execute
 		} else {
 			// statements to excute
+		} ` 
+7. Loop - _a way to repeat the tasks number of times._<br>
+	- **While** - <br>
+		`while(condition) { <br>
+			// statements <br>
+		}		<br>
+		` 
+	- **do..while** - <br> 
+		` do {		<br>
+			// this statement execute at least once <br>
+		} while (condition); 	`	<br>
+	- **for(begin; condition; increment)** - <br>
+		` for ( let i = 0; i < 3; i++) { <br>
+			//statements  <br>
+			alert(i);   <br>
 		} `
+8. Break & Continue <br>
+	- **break** - _It is used break or exit the loop._
+	- **continue** - _used to stop current iteration and start with new iteration._
+		eg: ` for (let i = 1; i <= 3; i++) { <br>
+				if (i == 2) { 		// when i equals to two, leave this 2 , start with 3<br>
+					continue;	<br>
+				}		<br>
+				console.log(i); <br>
+			}  // above block prints 1 3` <br>
