@@ -29,8 +29,20 @@
 			// statements to excute
 		} ` 
 7. Loop - _a way to repeat the tasks number of times._<br>
-	- **While** 
+	- **While** - <br>
 		`while(condition) { <br>
 			// statements <br>
 		}		<br>
 		` 
+	- **do..while** - <br> 
+		` do {		<br>
+			// this statement execute at least once <br>
+		} while (condition); 	`	<br>
+	- **for(begin; condition; increment)** - <br>
+		` for ( let i = 0; i < 3; i++) { <br>
+			//statements  <br>
+			alert(i);   <br>
+		} `
+8. Break & Continue <br>
+	- **break** - _It is used break or exit the loop._
+	- **continue** - _Mainly, used to continue loop when a certain condition matchs._
