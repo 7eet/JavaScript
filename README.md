@@ -19,17 +19,24 @@
 - **Arithematic** - _( +, -, *, /, %, \*\*)_
 ## Interactions<br>
 - **alert** - _It shows the alert message in a mini-window_ <br>
-	```> alert("JS");```
+	```
+	> alert("JS");
+	```
 
 - **confirm** - _It pop a new confirmation window having only two buttons "cancel" and "ok"._<br>
-	```> confirm("Question?");```
+	```
+	> confirm("Question?");
+	```
 
 - **prompt** - _It displays a text and textbox in a mini-window. User enter text in that textbox._<br>
-	```> prompt("Enter number");```
+	```
+	> prompt("Enter number");
+	```
 
 ## Conditional Statements<br>
 - **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._<br>
-``` if (condition) { 
+``` 
+	if (condition) { 
 
 		// statements to execute
 
@@ -42,7 +49,8 @@
 
 ## Loop - _a way to repeat the tasks number of times._<br>
 - **While** <br>
-``` while(condition) { 
+``` 
+	while(condition) { 
 
 		// statements
 
@@ -50,7 +58,8 @@
 ``` 
 
 - **do..while** <br>
-	``` do {		
+	```
+	 do {		
 
 		// this statement execute at least once 
 
@@ -58,22 +67,24 @@
 	 ```
 
 - **for(begin; condition; increment)** <br>
-	``` for ( let i = 0; i < 3; i++) { 
+	```
+	 for ( let i = 0; i < 3; i++) { 
 
 		//statements  
 
 		console.log(i);
 
 	}
-	 ```
+ ```
 
 ## Break & Continue <br>
 - **break** - _It is used break or exit the loop._
 - **continue** - _used to stop current iteration and start with new iteration._
 
-	``` for (let i = 1; i <= 3; i++) { 
+``` 
+	for (let i = 1; i <= 3; i++) { 
 
-		if (i == 2) { 		// when i equals to two, leave this 2 , start with 3
+		if (i == 2) { // when i equals to two, leave this 2 , start with 3
 
 			continue;	
 
@@ -81,7 +92,8 @@
 
 		console.log(i); 
 	
-	}```
+	}
+```
 
 _above block print 1 3_
 
