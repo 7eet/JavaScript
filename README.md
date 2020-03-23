@@ -45,4 +45,10 @@
 		} `
 8. Break & Continue <br>
 	- **break** - _It is used break or exit the loop._
-	- **continue** - _Mainly, used to continue loop when a certain condition matchs._
+	- **continue** - _used to stop current iteration and start with new iteration._
+		eg: ` for (let i = 1; i <= 3; i++) { <br>
+				if (i == 2) { 		// when i equals to two, leave this 2 , start with 3<br>
+					continue;	<br>
+				}		<br>
+				console.log(i); <br>
+			}  // above block prints 1 3` <br>
