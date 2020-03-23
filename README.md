@@ -20,11 +20,17 @@
 	- **confirm** - _It pop a new confirmation window having only two buttons "cancel" and "ok"._<br>
 	`> confirm("Question?");`
 	- **prompt** - _It displays a text and textbox in a mini-window. User enter text in that textbox._<br>
-	`> prompt("Enter number");
+	`> prompt("Enter number");`
 6. Conditional Statements<br>
 	- **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._<br>
 		`if (condition) { 
 			// statements to execute
 		} else {
 			// statements to excute
-		} `
+		} ` 
+7. Loop - _a way to repeat the tasks number of times._<br>
+	- **While** 
+		`while(condition) { <br>
+			// statements <br>
+		}		<br>
+		` 
