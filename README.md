@@ -29,39 +29,55 @@
 
 ## Conditional Statements<br>
 - **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._<br>
-	`if (condition) { 
-		// statements to execute
-	} else {
-		// statements to excute
-	}` 
+`if (condition) { 
+
+	// statements to execute
+
+} else {
+
+	// statements to excute
+
+}` 
 
 ## Loop - _a way to repeat the tasks number of times._<br>
-- **While**
+- **While** <br>
 `while(condition) { 
 
 	// statements 
 
 }` 
 
-- **do..while**
+- **do..while** <br>
 `do {		
+
 	// this statement execute at least once 
+
 } while (condition);`
 
-- **for(begin; condition; increment)**
+- **for(begin; condition; increment)** <br>
 `for ( let i = 0; i < 3; i++) { 
+
 	//statements  
+
 	console.log(i);
+
 }`
 
 ## Break & Continue <br>
 - **break** - _It is used break or exit the loop._
 - **continue** - _used to stop current iteration and start with new iteration._
-_eg:_ <br>
+
 `for (let i = 1; i <= 3; i++) { 
+
 	if (i == 2) { 		// when i equals to two, leave this 2 , start with 3
+
 		continue;	
+
 	}		
+
 	console.log(i); 
 }`
+
+_above block print 1 3_
+
 
