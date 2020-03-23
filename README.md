@@ -29,23 +29,17 @@
 
 ## Conditional Statements<br>
 - **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._<br>
-	`if (condition) { 
-	
+	` if (condition) { 
 		// statements to execute
-
 	} else {
-	
 		// statements to excute
-
-	}` 
+	} ` 
 
 ## Loop - _a way to repeat the tasks number of times._<br>
 - **While** <br>
-	`while(condition) { 
-	
-		// statements 
-
-	}` 
+	` while(condition) { 
+		// statements
+	} ` 
 
 - **do..while** <br>
 `do {		
