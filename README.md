@@ -29,6 +29,7 @@
 
 ## Conditional Statements<br>
 - **if...else** - _if condition is true then enter into if's block otherwise enter into else's block._<br>
+
 	`if (condition) { 
 
 		// statements to execute
@@ -37,7 +38,7 @@
 
 		// statements to excute
 
-	} ` 
+	}` 
 
 ## Loop - _a way to repeat the tasks number of times._<br>
 - **While** - <br>
@@ -48,25 +49,25 @@
 	}` 
 
 - **do..while** - <br> 
-	` do {		
+	`do {		
 
 		// this statement execute at least once 
 
-	} while (condition); 	`
+	} while (condition);`
 
 - **for(begin; condition; increment)** - <br>
-	` for ( let i = 0; i < 3; i++) { 
+	`for ( let i = 0; i < 3; i++) { 
 
 		//statements  
 
 		console.log(i);
 
-	} `
+	}`
 
 ## Break & Continue <br>
 - **break** - _It is used break or exit the loop._
 - **continue** - _used to stop current iteration and start with new iteration._
-eg: ` for (let i = 1; i <= 3; i++) { 
+eg: `for (let i = 1; i <= 3; i++) { 
 
 		if (i == 2) { 		// when i equals to two, leave this 2 , start with 3
 
