@@ -103,14 +103,12 @@
 		if (i == 2) { // when i equals to two, leave this 2 , start with 3
 			continue;	
 		}		
-		console.log(i); 
+		console.log(i);    // it prints 1 3
 	}
 ```
 
-_above block print 1 3_
 
 ## Functions <br>
-
 	_It is a block of one or multiple statements._ <br>
 	_Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does._
 	_Here is how to declare the function_
