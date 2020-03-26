@@ -111,7 +111,8 @@ _above block print 1 3_
 
 ## Functions <br>
 	_It is a block of one or multiple statements._ <br>
-	`> Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does.`
+	`> Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does.
+	`
 	_Here is how to declare the function_ <br>
 	```
 		function name_of_function(parameters) {
