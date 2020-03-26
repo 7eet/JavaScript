@@ -98,15 +98,14 @@
 - **break** - _It is used break or exit the loop._
 - **continue** - _used to stop current iteration and start with new iteration._
 
-``` 
-	for (let i = 1; i <= 3; i++) { 
-		if (i == 2) { // when i equals to two, leave this 2 , start with 3
+	``` 
+		for (let i = 1; i <= 3; i++) { 
+			if (i == 2) { // when i equals to two, leave this 2 , start with 3
 			continue;	
-		}		
+			}		
 		console.log(i);    // it prints 1 3
-	}
-```
-
+		}
+	```
 
 ## Functions <br>
 	_It is a block of one or multiple statements._ <br>
@@ -124,6 +123,7 @@
 			alert("Hello!!!!");
 		}
 	```
+	
 ### Local Variable 
 	_A variable declared inside a function. It is only accessible to that function's body only._
 	eg:
