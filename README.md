@@ -81,7 +81,7 @@
 		console.log(i);
 	}
 	```
-	_print even numbers_
+ _print even numbers_
 	```
 	> for (let i = 0; i <= 10; i = i + 2) {
 	... console.log(i);
@@ -110,9 +110,11 @@
 _above block print 1 3_
 
 ## Functions <br>
+
 	_It is a block of one or multiple statements._ <br>
 	_Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does._
-	_Here is how to declare the function_ <br>
+	_Here is how to declare the function_
+	
 	```
 		function name_of_function(parameters) {
 			// statements
