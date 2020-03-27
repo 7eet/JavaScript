@@ -172,7 +172,7 @@ _eg:_<br>
 		}
 		let result = add(2,1);
 		alert(result);	// display 3
-```<br>
+```
 _A empty return is same as undefined_.<br>
 ```
 		function something() {  // some-statements; }
