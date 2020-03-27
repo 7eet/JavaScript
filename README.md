@@ -61,11 +61,11 @@
 ```
 ## Loop - _a way to repeat the tasks number of times._<br>
 - **While** <br>
-``` 
-	while(condition) { 
-		// statements
-	}
-``` 
+	```
+		while(condition) {
+			// statements
+		}
+	``` 
 
 - **do..while** <br>
 	```
@@ -108,10 +108,10 @@
 	```
 
 
-## Functions <br>
-	_It is a block of one or multiple statements._ <br>
-	_Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does._
-	_Here is how to declare the function_
+## Functions 
+_It is a block of one or multiple statements._ <br>
+_Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does._
+_Here is how to declare the function_
 	
 	```
 		function name_of_function(parameters) {
@@ -130,7 +130,7 @@
 	eg:
 	```
 		function greet() {
-  			let message = "Hello!!!!"; // local variable
+			let message = "Hello!!!!"; // local variable
 
 			alert( message );
 		}
@@ -146,10 +146,9 @@
 		let userName = 'Alice';   // global variable
 
 		function greet() {
-  			userName = "Bob"; // (1) changed the outer variable
-
-  			let message = 'Hello, ' + userName;
-  			alert(message);
+			userName = "Bob"; // (1) changed the outer variable
+			let message = 'Hello, ' + userName;
+			alert(message);
 		}
 
 		alert( userName ); // Alice before the function call
@@ -164,7 +163,7 @@
 	_eg:_
 	```
 		function greet(to, msg) { // arguments: to, msg
-  			alert(to + ': ' + msg);
+			alert(to + ': ' + msg);
 		}
 		
 		greet('Alice','Hello');
@@ -181,7 +180,7 @@
 		alert(result);	// display 3
 	```
 	
-	_A empty return is same as ```undefined```_.
+	_A empty return is same as undefined_.
 	```
 		function something() {  // some-statements; }
 		function nothing() {  return; }
