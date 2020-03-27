@@ -118,7 +118,6 @@ _Here is how to declare the function_<br>
 		// statements
 	}
 ```
-<br>
 _eg:_<br>
 ```
 	function greet() {
