@@ -112,7 +112,6 @@
 _It is a block of one or multiple statements._ <br>
 _Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does._
 _Here is how to declare the function_
-	
 	```
 		function name_of_function(parameters) {
 			// statements
