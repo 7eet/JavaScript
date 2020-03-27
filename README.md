@@ -183,3 +183,19 @@ _A empty return is same as undefined_.<br>
 ```
 
 ### Function Declaration & Function Expression
+_If the function is declared as a separate statement in the main code then it is_ **Function Declaration**.<br>
+```
+	function hello() {
+		alert("Hello");
+	}
+```
+_If the function is created as a part of an expression, it’s called a_ **Function Expression**.
+```
+	let hello = function() {
+		alert("Hello");
+	};
+	
+	hello();
+```
+**Function Declarations are processed before the code block is executed.**<br>
+**Function Expressions are created when the execution flow reaches them.**
