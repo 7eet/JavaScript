@@ -128,19 +128,19 @@ _eg:_<br>
 ### Local Variable
 _A variable declared inside a function. It is only accessible to that function's body only._<br>
 _eg:_<br>
-	```
+```
 		function greet() {
 			let message = "Hello!!!!"; // local variable
 			alert( message );
 		}
 		greet(); // Hello!!!!
 		alert( message );  // Error! message is not defined.
-	```<br>
+```
 
 ### Global or Outer Variable
-	_A variable is declared outside of function's body._ <br>
-	_eg:_<br>
-	```
+_A variable is declared outside of function's body._ <br>
+_eg:_<br>
+```
 		let userName = 'Alice';   // global variable
 		function greet() {
 			userName = "Bob"; // (1) changed the outer variable
@@ -150,18 +150,19 @@ _eg:_<br>
 		alert( userName ); // Alice before the function call
 		greet();
 		alert( userName ); // Bob, the value was modified by the function
-	```
+```
 
 ### Parameters
-	_We can pass data to a function using parameters. It is also called as_ **function arguments**.<br>
-	_Values passed to a function as parameters are copied to its local variables._<br>
-	_eg:_<br>
-	```
+_We can pass data to a function using parameters. It is also called as_ **function arguments**.<br>
+_Values passed to a function as parameters are copied to its local variables._<br>
+_eg:_<br>
+```
 		function greet(to, msg) { // arguments: to, msg	
 			alert(to + ': ' + msg);
 		}
 		greet('Alice','Hello');
-	```<br>
+```
+
 ### Returning a value
 	_A function a return value._<br>
 	_eg:_<br>
