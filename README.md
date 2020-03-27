@@ -206,7 +206,7 @@ _syntax:_
 ```
 	let func = (a,b,c, ...n) => expression;
 ```
-	**or**
+   **or**
 ```
 	let func = (a,b,c, ...n) => {
 		//body
