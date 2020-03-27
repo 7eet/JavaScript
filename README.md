@@ -164,21 +164,22 @@ _eg:_<br>
 ```
 
 ### Returning a value
-	_A function a return value._<br>
-	_eg:_<br>
-	```
+_A function a return value._<br>
+_eg:_<br>
+```
 		function add(a,b) {
 			return a + b;
 		}
 		let result = add(2,1);
 		alert(result);	// display 3
-	```<br>
-	_A empty return is same as undefined_.<br>
-	```
+```<br>
+_A empty return is same as undefined_.<br>
+```
 		function something() {  // some-statements; }
 		function nothing() {  return; }
 		
 		alert( something() === undefined ); // true
 		alert( nothing() === undefined ); // true
-	```<br>
+```
 
+### Function Declaration & Function Expression
