@@ -114,13 +114,17 @@ _Function name should be as accurate as possible and describe what the function 
 _Here is how to declare the function_<br>
 	```
 		function name_of_function(parameters) {
+		
 			// statements
+		
 		}
 	```<br>
 	_eg:_<br>
 	```
 		function greet() {
+		
 			alert("Hello!!!!");
+		
 		}
 	```
 	
@@ -129,10 +133,15 @@ _A variable declared inside a function. It is only accessible to that function's
 _eg:_<br>
 	```
 		function greet() {
+		
 			let message = "Hello!!!!"; // local variable
+		
 			alert( message );
+		
 		}
+		
 		greet(); // Hello!!!!
+		
 		alert( message ); // <-- Error! message is not defined.
 	```<br>
 
@@ -141,13 +150,21 @@ _A variable is declared outside of function's body._ <br>
 _eg:_<br>
 	```
 		let userName = 'Alice';   // global variable
+		
 		function greet() {
+		
 			userName = "Bob"; // (1) changed the outer variable
+		
 			let message = 'Hello, ' + userName;
+		
 			alert(message);
+		
 		}
+		
 		alert( userName ); // Alice before the function call
+		
 		greet();
+		
 		alert( userName ); // Bob, the value was modified by the function
 	```<br>
 
@@ -157,8 +174,11 @@ _Values passed to a function as parameters are copied to its local variables._<b
 _eg:_<br>
 	```
 		function greet(to, msg) { // arguments: to, msg
+		
 			alert(to + ': ' + msg);
+		
 		}
+		
 		greet('Alice','Hello');
 	```<br>
 
