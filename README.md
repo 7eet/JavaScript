@@ -125,7 +125,7 @@ _eg:_<br>
 	}
 ```
 
-### Local Variable 
+### Local Variable
 	_A variable declared inside a function. It is only accessible to that function's body only._<br>
 	_eg:_<br>
 	```
