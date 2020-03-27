@@ -114,17 +114,14 @@ _Function name should be as accurate as possible and describe what the function 
 _Here is how to declare the function_<br>
 	```
 		function name_of_function(parameters) {
-		
 			// statements
-		
 		}
-	```<br>
+	```
+	<br>
 	_eg:_<br>
 	```
 		function greet() {
-		
 			alert("Hello!!!!");
-		
 		}
 	```
 	
