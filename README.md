@@ -110,14 +110,14 @@
 
 ## Functions 
 _It is a block of one or multiple statements._ <br>
-_Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does._
-_Here is how to declare the function_
+_Function name should be as accurate as possible and describe what the function does so that someone reading the code gets an indication of what the function does._<br>
+_Here is how to declare the function_<br>
 	```
 		function name_of_function(parameters) {
 			// statements
 		}
-	```
-	_eg:_
+	```<br>
+	_eg:_<br>
 	```
 		function greet() {
 			alert("Hello!!!!");
@@ -125,8 +125,8 @@ _Here is how to declare the function_
 	```
 	
 ### Local Variable 
-_A variable declared inside a function. It is only accessible to that function's body only._
-_eg:_
+_A variable declared inside a function. It is only accessible to that function's body only._<br>
+_eg:_<br>
 	```
 		function greet() {
 			let message = "Hello!!!!"; // local variable
@@ -134,11 +134,11 @@ _eg:_
 		}
 		greet(); // Hello!!!!
 		alert( message ); // <-- Error! message is not defined.
-	```
+	```<br>
 
 ### Global or Outer Variable
 _A variable is declared outside of function's body._ <br>
-_eg:_
+_eg:_<br>
 	```
 		let userName = 'Alice';   // global variable
 		function greet() {
@@ -149,35 +149,35 @@ _eg:_
 		alert( userName ); // Alice before the function call
 		greet();
 		alert( userName ); // Bob, the value was modified by the function
-	```
+	```<br>
 
 ### Parameters
 _We can pass data to a function using parameters. It is also called as_ **function arguments**.<br>
 _Values passed to a function as parameters are copied to its local variables._<br>
-_eg:_
+_eg:_<br>
 	```
 		function greet(to, msg) { // arguments: to, msg
 			alert(to + ': ' + msg);
 		}
 		greet('Alice','Hello');
-	```
+	```<br>
 
 ### Returning a value
 _A function a return value._<br>
-_eg:_
+_eg:_<br>
 	```
 		function add(a,b) {
 			return a + b;
 		}
 		let result = add(2,1);
 		alert(result);	// display 3
-	```
-_A empty return is same as undefined_.
+	```<br>
+_A empty return is same as undefined_.<br>
 	```
 		function something() {  // some-statements; }
 		function nothing() {  return; }
 		
 		alert( something() === undefined ); // true
 		alert( nothing() === undefined ); // true
-	```
+	```<br>
 
