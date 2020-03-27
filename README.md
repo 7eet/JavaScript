@@ -125,61 +125,54 @@ _Here is how to declare the function_
 	```
 	
 ### Local Variable 
-	_A variable declared inside a function. It is only accessible to that function's body only._
-	eg:
+_A variable declared inside a function. It is only accessible to that function's body only._
+_eg:_
 	```
 		function greet() {
 			let message = "Hello!!!!"; // local variable
-
 			alert( message );
 		}
-
 		greet(); // Hello!!!!
-
 		alert( message ); // <-- Error! message is not defined.
 	```
+
 ### Global or Outer Variable
-	_A variable is declared outside of function's body._ <br>
-	eg:
+_A variable is declared outside of function's body._ <br>
+_eg:_
 	```
 		let userName = 'Alice';   // global variable
-
 		function greet() {
 			userName = "Bob"; // (1) changed the outer variable
 			let message = 'Hello, ' + userName;
 			alert(message);
 		}
-
 		alert( userName ); // Alice before the function call
-
 		greet();
-
 		alert( userName ); // Bob, the value was modified by the function
 	```
+
 ### Parameters
-	_We can pass data to a function using parameters. It is also called as_ **function arguments**.
-	_Values passed to a function as parameters are copied to its local variables._
-	_eg:_
+_We can pass data to a function using parameters. It is also called as_ **function arguments**.<br>
+_Values passed to a function as parameters are copied to its local variables._<br>
+_eg:_
 	```
 		function greet(to, msg) { // arguments: to, msg
 			alert(to + ': ' + msg);
 		}
-		
 		greet('Alice','Hello');
 	```
+
 ### Returning a value
-	_A function a return value._
-	_eg:_
+_A function a return value._<br>
+_eg:_
 	```
 		function add(a,b) {
 			return a + b;
 		}
-		
 		let result = add(2,1);
 		alert(result);	// display 3
 	```
-	
-	_A empty return is same as undefined_.
+_A empty return is same as undefined_.
 	```
 		function something() {  // some-statements; }
 		function nothing() {  return; }
@@ -187,3 +180,4 @@ _Here is how to declare the function_
 		alert( something() === undefined ); // true
 		alert( nothing() === undefined ); // true
 	```
+
