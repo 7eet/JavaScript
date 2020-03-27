@@ -199,3 +199,34 @@ _If the function is created as a part of an expression, it’s called a_ **Funct
 ```
 **Function Declarations are processed before the code block is executed.**<br>
 **Function Expressions are created when the execution flow reaches them.**
+
+### Arrow Function
+_It is a similar synatx of Java's lambda functions._<br>
+_syntax:_
+```
+	let func = (a,b,c, ...n) => expression;
+```
+	**or**
+```
+	let func = (a,b,c, ...n) => {
+		//body
+	};
+```
+_The func accepts a,b,c, ...n arguments and evalutes expression on the right side._<br>
+_eg:_
+```
+	let sum = (a,b) => a+b;
+
+	alert(sum(5,5));   // gives 10
+```
+_for one argument there is no need to place parenthesis_
+```
+	let square = i => i * i;
+
+	alert(square(5));  // gives 25
+```
+_For zero argument there should be empty parentheses_
+```
+	let greet = () => alert("hello");
+	greet();
+```
