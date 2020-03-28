@@ -230,3 +230,7 @@ _For zero argument there should be empty parentheses_
 	let greet = () => alert("hello");
 	greet();
 ```
+
+## Debugging
+_Debugging is used to find or fix the errors in the code._ <br>
+[Detailed Info](https://javascript.info/debugging-chrome)
