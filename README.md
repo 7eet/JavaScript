@@ -281,3 +281,50 @@ _In JS a property has a key before the colon ":" and a value to the right._<br>
 
 	console.log(user["fav language"])   // gives Go
 ```
+
+### check the existence of a property in object
+``
+	console.log("age" in user);   // true because, user.age exists
+
+	console.log("noKey" in user);    // false because, user.noKey does not exists
+```
+
+### for...in loop
+_To walk over all keys of an object_<br>
+```
+	for (key in object) {
+		//body;
+	}
+```
+
+```
+	let user = {
+		name: "Bob",
+		age: 20,
+	};
+
+	for (let key in user) {
+		console.log(key);    // prints the key only like name,age
+	
+		console.log(user[key]);    // prints the value  Bob, 20
+	}
+```
+
+### Comparison by reference
+_Two objects are equal only if they are the same object._
+
+```
+	let one = {};
+	let two = one;
+
+	console.log(one == two);   // true, because both variables reference the same object
+```
+
+```
+	let one = {};
+	let two = {};
+
+	console.log(one == two);   // false, because they are two independent objects
+```
+
+
