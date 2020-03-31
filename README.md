@@ -234,3 +234,50 @@ _For zero argument there should be empty parentheses_
 ## Debugging
 _Debugging is used to find or fix the errors in the code._ <br>
 [Detailed Info](https://javascript.info/debugging-chrome)
+
+
+## Objects
+_It a data type which stores the collections of various data._<br>
+_example: The car object contains properties like color, doors, isElectric, etc._<br>
+_In JS a property has a key before the colon ":" and a value to the right._<br>
+
+### empty object
+```
+	let user = {};
+```
+  **or**
+```
+	let user = new Object();
+```
+
+### Object with two properties
+```
+	let user = {
+		name: "Steve",
+		age: 20,
+	};
+```
+
+### Add new property after creating a object
+```
+	user.gender = 'Male';
+	
+	let aNewKey = "fav language";       // Note: do not use a value which contains a whitespace
+					   // use underscore "_" 
+					  // example: let aNewKey = "fav_language";
+
+	user[aNewKey] = "Go";       // same as   user["fav language"] = "Go";
+```
+
+
+### To remove a property
+```
+	delete user.gender;
+```
+
+### Access data from object
+```
+	console.log(user.name);   // gives Steve
+
+	console.log(user["fav language"])   // gives Go
+```
