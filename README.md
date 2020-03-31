@@ -283,7 +283,7 @@ _In JS a property has a key before the colon ":" and a value to the right._<br>
 ```
 
 ### check the existence of a property in object
-``
+```
 	console.log("age" in user);   // true because, user.age exists
 
 	console.log("noKey" in user);    // false because, user.noKey does not exists
