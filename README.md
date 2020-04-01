@@ -327,4 +327,7 @@ _Two objects are equal only if they are the same object._
 	console.log(one == two);   // false, because they are two independent objects
 ```
 
+## Garbage Collector
+[garbage collector](https://javascript.info/garbage-collection)
+
 
