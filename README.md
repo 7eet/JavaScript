@@ -330,4 +330,19 @@ _Two objects are equal only if they are the same object._
 ## Garbage Collector
 [garbage collector](https://javascript.info/garbage-collection)
 
+## 'this' keyword
+_Method can reference the object using _`this`.<br>
+_The value of this is defined at run-time._<br>
+
+```
+	let user = {
+		name: "Alice",
+		age: 23,
+		sayHi() {
+			console.log("Hello " + this.name");
+		}
+	};
+
+	user.sayHi();    // Hello Alice
+```
 
