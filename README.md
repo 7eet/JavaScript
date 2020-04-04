@@ -345,4 +345,8 @@ _The value of this is defined at run-time._<br>
 
 	user.sayHi();    // Hello Alice
 ```
-
+## Strings
+- length
+  ```
+	console.log(`MyString`.length);  //8
+  ```
