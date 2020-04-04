@@ -346,11 +346,14 @@ _The value of this is defined at run-time._<br>
 	user.sayHi();    // Hello Alice
 ```
 ## Strings
-- length
+_Strings can't be changed in JavaScript. String are immutable like Java._
+
+1. **length**
   ```
 	console.log(`MyString`.length);  //8
   ```
-- charAt(pos)
+2. **charAt(pos)**
+
  _to access a character at position pos. We can use square brackets [pos] or charAt(pos) method._
  ```
     let str = "JavaScript";
@@ -362,4 +365,72 @@ _The value of this is defined at run-time._<br>
     console.log(str[str.lenght - 1]);    // t
  ```
 
- _If the position input is greater than the length of string then_ `[]` _return_ `undefined` _while_ `charAt(pos)` _return empty string_ `''`.
+ _If the position input is greater than the length of string then_ `[]` _return_ `undefined` _while_ `charAt(pos)` _return empty string_ `''`
+
+3. **iterate over characters**
+ _using_ `for..of`
+ 
+  ```
+     > for (let ch of "JavaScript") {
+     ...   console.log(ch);
+     ... }
+     J
+     a
+     v
+     a
+     S
+     c
+     r
+     i
+     p
+     t
+  ```
+4. **Change the case**
+ _using_ `toLowerCase()` _&_ `toUpperCase()`
+ 
+ ```
+    console.log("case".toUpperCase());    // CASE
+    
+    console.log("CasE".toLowerCase());    // case
+ ```
+5. **Searching in a string**
+ - **indexOf**
+  _method_ `indexOf(subString, pos)` _looks subString in a String starting from given position._<br>
+  _It return positive where the match was found or -1 if nothing was found._<br>
+  
+   ```
+     let str = "JavaScript";
+    
+     str.indexOf("Java");    // 0, because it's at the begining.
+     str.indexOf("Script");    // 4, it starts from index 4.
+   ```
+ - **lastIndexOf**
+  _same as above but it searches substring from end to its begining.._
+  
+   ```
+     let str = "learning"; 
+     
+     str.lastIndexOf("n");   // 6 
+     
+     str.indexOf("n");    // 4
+   ```
+ - **includes**
+  _includes(sub, pos) return true/fasle depending upon string contains sub._
+  
+   ```
+     let str = "JavaScript is Fun";
+     
+     str.includes("is");    // true
+     
+     str.includes("i",20)  // false , because it does not contains "i" after position 20.
+   ```
+ - **startsWith and endsWith**
+   ```
+      "JavaScript is Fun".startsWith("Java");    // true
+    
+      "JavaScript is Fun".endsWith("Fun");    // true
+   ```
+   
+   
+ 
+
