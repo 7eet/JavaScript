@@ -350,3 +350,16 @@ _The value of this is defined at run-time._<br>
   ```
 	console.log(`MyString`.length);  //8
   ```
+- charAt(pos)
+ _to access a character at position pos. We can use square brackets [pos] or charAt(pos) method._
+ ```
+    let str = "JavaScript";
+
+    console.log(str[0]);    // J
+    console.log(str.charAt(0));    // J
+
+    // to access the last character
+    console.log(str[str.lenght - 1]);    // t
+ ```
+
+ _If the position input is greater than the length of string then_ `[]` _return_ `undefined` _while_ `charAt(pos)` _return empty string_ `''`.
