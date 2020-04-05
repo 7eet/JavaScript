@@ -430,7 +430,22 @@ _Strings can't be changed in JavaScript. String are immutable like Java._
     
       "JavaScript is Fun".endsWith("Fun");    // true
    ```
-   
-   
  
+ - **slice**
+  `slice(start [,end])` _returns the part of string from start to (not including) end._<br>
 
+  ```
+    let str = "JavaScript";
+    console.log(str.slice(0,4));  // 'Java'
+
+    console.log(str.slice(4));   // 'Script'
+  ```
+ 
+ - **substr**
+  `substr(start [, lenght])` _return the part of string from start with given_ `length`.
+  
+  ```
+    let str = "JavaScript";
+
+    console.log(str.substr(2,2));  // 'va',  it starts at index 2 and end at position 4(excluding)
+  ```
