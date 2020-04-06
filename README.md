@@ -455,24 +455,24 @@
   _Data structure used to store ordered collections._<br>
  
 ### Declaration
-    ```
-        let arr = new Array();
+  ```
+      let arr = new Array();
 
-        let arr = [];
+      let arr = [];
 
-        let languages = ["Go", "Java", "C++", "JavaScript", "Python"];
-    ```
+      let languages = ["Go", "Java", "C++", "JavaScript", "Python"];
+  ```
 
 ### To access an element
-    _used index to access particular element. Arrays start with index 0._
+  _used index to access particular element. Arrays start with index 0._
 
-    ```
-        let languages = ["Go", "JavaScript", "Dart"];
+  ```
+      let languages = ["Go", "JavaScript", "Dart"];
 
-        console.log(languages[0]);  // Go
+      console.log(languages[0]);  // Go
   
-        console.log(languages[2]);  // Dart
-    ```
+      console.log(languages[2]);  // Dart
+  ```
 
 ### Replace element
     ```
@@ -480,3 +480,88 @@
 
         console.log(languages);  // [ 'Python', 'JavaScript', 'Dart' ]
     ```
+    
+### Methods
+  - **push**
+    _appends an element to the end._<br>
+    `return` _the new length of array_
+    
+    ```
+       let numerics = [1, 2, 3, 4];
+       
+       let position = numerics.push(0);   // 5
+       
+       console.log(numerics);  // [ 1, 2, 3, 4, 0 ]
+    ```
+  - **pop**
+    _remove the last element of array and returns it._
+    
+    ```
+       console.log(numerics.pop());   // 0, because the last element is 0
+    ```
+    
+  - **shift**
+    _removes the first element of array and returns it._
+    
+    ```
+       console.log(numerics);   //  [ 1, 2, 3, 4]
+       
+       console.log(numerics.shift());  // 1
+       
+    ```
+    
+  - **unshift**
+    _add the element to the beginning of the array._<br>
+    `return` _the new length of array._ 
+    
+    ```
+       console.log(numerics);  // [ 2, 3, 4 ]
+       
+       numerics.unshift(1);
+       
+       console.log(numerics);   //  [ 1, 2, 3, 4]
+       
+    ```
+  - **slice**
+    `slice(start, [end])`<br>
+    _it returns a new array copying all items from start to end(not including)._<br>
+    ```
+        let arr = ["A", "B", "C", "D"];
+
+	let sub = arr.slice(1,3);
+
+	console.log(sub);  // ['B', 'C']
+
+        let endingTwo = arr.slice(-2);
+     
+	console.log(endingTwo);  // ['C', 'D']
+    ```
+  
+  - **concat**
+    `concat(arg1, arg2, ..., argN)`<br>
+    _it creates a new array includes other array and additional items._<br>
+    ```
+     let arr = [1, 2];
+
+     let newArr = arr.concat(3,4);
+
+     console.log(newArr);  // [ 1, 2, 3, 4]
+
+     let twoArrayConcat = arr.concat([5,6],[7,8]);
+
+     console.log(twoArrayConcat);  // [ 1, 2, 5, 6, 7, 8]
+    ```
+
+  - **forEach**
+    `forEach(function(item, index, array) {
+       // do something
+     }`
+
+    ```
+      let arr = ["a", "b", "c", "d"];
+      
+      arr.forEach((item, index, array) => {
+           console.log(`${item} is at index ${index} in [ ${array} ]`);
+      });
+
+     ```
