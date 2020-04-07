@@ -633,4 +633,6 @@
       let st = arr.join("");
 
       console.log(st);  // JavaScript
-    ```   
+    ```
+    
+  [more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
