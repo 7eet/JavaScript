@@ -565,3 +565,72 @@
       });
 
      ```
+
+  - **find**
+    `find(function(item, index, array)) { }`<br>
+    _It find the element in the array and return the value if the value is found._<br>
+
+    ```
+      let arr = [1, 2, 3, 4, 5];
+
+      let find = arr.find(item => item === 4);
+  
+      console.log(find);  // 4
+    ```
+
+  - **filter**
+    `filter(function(item, index, array)) {  }`<br>
+    _It return the array of all matching elements._<br>
+
+    ```
+      let arr = [1, 2, 3, 4, 5];
+  
+      let elements = arr.filter(item => item >= 4);
+
+      console.log(elements);  // [4, 5]
+    ```
+
+  - **map**
+    `map(function(item, index, array)) {  }`<br>
+    _It calls the function for each element of the array and returns the array of results._<br>
+
+    ```
+      let arr = [1, 2, 3, 4];
+
+      let doubleArr = arr.map(item => item * 2);
+
+      console.log(doubleArr);  // [2, 4, 6, 8]
+    ``` 
+
+  - **reverse**
+    _reverse the order of array._<br>
+
+    ```
+      let arr = [1, 2, 3];
+
+      arr.reverse();
+
+      console.log(arr);  // [3, 2, 1]
+    ```
+
+  - **split**
+    _split string into array._
+  
+    ```
+      let str = "This is a string";
+
+      let arr = str.split(" ");
+
+      console.log(arr);  // ['This', 'is', 'a', 'string']
+    ```
+
+  - **join**
+    _it joins the array and return the string._
+
+    ```
+      let arr = ["Java", "Script"];
+
+      let st = arr.join("");
+
+      console.log(st);  // JavaScript
+    ```   
