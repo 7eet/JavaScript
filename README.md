@@ -636,3 +636,16 @@
     ```
     
   [more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+## Map
+_Map is a collection of keyed data items._
+
+_Methods and properties are:_
+ - new Map() - creates the map
+ - map.set(key, value) - stores the value by the key
+ - map.get(key) - returns the value by the key or undefined if key doesn't exist.
+ - map.has(key) - return true if key exists, otherwise false
+ - map.delete(key) - remove the value by the key
+ - map.clear() - removes everything from map
+ - map.size - returns the size of map
+
