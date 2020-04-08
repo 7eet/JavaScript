@@ -640,7 +640,7 @@
 ## Map
 _Map is a collection of keyed data items._
 
-_Methods and properties are:_
+_Methods and properties are:_<br>
  - new Map() - creates the map
  - map.set(key, value) - stores the value by the key
  - map.get(key) - returns the value by the key or undefined if key doesn't exist.
@@ -648,4 +648,18 @@ _Methods and properties are:_
  - map.delete(key) - remove the value by the key
  - map.clear() - removes everything from map
  - map.size - returns the size of map
+
+
+## Set
+_It is a collection of values, where each value may occur only once._
+
+_Methods and properties are:_<br>
+ - new Set(iterable) - creates the set, and if an iterable objecct is provided (usually an array), copies values from it into set.
+ - set.add(value) - adds the value, and return it.
+ - set.delete(value) - remove the value and return true if exists, otherwise false.
+ - set.has(value) - return true if exist.
+ - set.clear() - removes everything.
+ - set.size - return the size of set.
+
+
 
