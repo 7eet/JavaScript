@@ -662,4 +662,33 @@ _Methods and properties are:_<br>
  - set.size - return the size of set.
 
 
+## Destructing Assignment
+ _It is a special syntax that allows us to "unpack" arrays or objects into bunch of variables._
+
+### Array destructing
+ ```
+    let arr = ["Java", "Script"];
+
+    // for example only :)
+    
+    let [firstName, lastName] = arr;   // destructing array
+
+    console.log(firstName);  // Java
+    console.log(lastName);   // Script
+ ```
+
+### Object destructing
+ ```
+   let obj = {
+     title: "Menu",
+     width: 100,
+     height: 200,
+   };
+
+   let {title, width, height} = obj;
+
+   console.log(title);  // Menu
+   console.log(width);  // 100
+   console.log(height);  // 200
+ ```
 
