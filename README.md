@@ -692,3 +692,10 @@ _Methods and properties are:_<br>
    console.log(height);  // 200
  ```
 
+## JSON
+ _JSON is a data format that has its own independent standard and libraries for most programming languages._<br>
+ _JSON supports plain objeccts, arrays, strings, numbers, booleans and null._<br>
+ _JavaScript provides methods,_ `JSON.stringify` _to serialize into JSON and_ `JSON.parse` _to read from JSON._<br>
+ _If an object has_ `toJSON`, _then it is called by_ `JSON.stringify`.<br>
+
+
